@@ -237,6 +237,8 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - vendor
+  - Rakefile
 
 # Plugins:
 plugins:

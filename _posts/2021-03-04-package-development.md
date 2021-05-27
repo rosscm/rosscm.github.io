@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Developing a package"
+title: "Developing an R Package"
+subtitle: ":package: Steps to start creating your own Bioconductor package"
+tags: [R, Bioconductor, development]
+comments: true
 ---
 
 Interested in building your own R package? Here I'll outline the steps

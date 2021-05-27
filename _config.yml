@@ -44,6 +44,7 @@ social-network-links:
   linkedin: cthrnrss
   twitter: cthrnrss
   instagram: mochacinnopoo
+  google-scholar: citations?user=K709gS0AAAAJ&hl=en
 #  facebook: deanattali
 #  patreon: DeanAttali
 #  youtube: c/daattali
@@ -61,11 +62,10 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-#  google-scholar: your google scholar
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
@@ -95,14 +95,13 @@ feed_show_tags: true
 # --- Colours / background image --- #
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
-
-navbar-col: "#FEFDF4"
-navbar-text-col: "#A180AD"
+navbar-col: "#A180AD"
+navbar-text-col: "#EFEBE2"
 navbar-border-col: "#EFEBE2"
-#page-col: "#F4F4F4"
+page-col: "#FFFDF5"
 text-col: "#272030"
 link-col: "#AB1D79"
-hover-col: "#B46490"
+hover-col: "#4E2780"
 footer-col: "#A180AD"
 footer-text-col: "#EFEBE2"
 footer-link-col: "#E4C9E5"
@@ -112,7 +111,7 @@ footer-link-col: "#E4C9E5"
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
-page-img: "/assets/img/background2.png"
+#page-img: "/assets/img/background2.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
@@ -211,12 +210,13 @@ kramdown:
 defaults:
   -
     scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      readtime: true
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
@@ -249,6 +249,7 @@ plugins:
   - jekyll-include-cache
   - jemoji
   - jekyll-scholar
+  - jekyll-seo-tag
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 

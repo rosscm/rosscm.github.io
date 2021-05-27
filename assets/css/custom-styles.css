@@ -2,8 +2,6 @@
 layout: null
 ---
 
-@import url("pygment_highlights.css");
-
 /* --- General --- */
 
 .center {
@@ -26,11 +24,6 @@ footer {
   border-top: 0.8px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: {{ site.footer-col | default: "#EAEAEA" }};
-  {% if site.footer-img %}
-    background-image: url({{ site.footer-img | relative_url }});
-    background-attachment: fixed;
-  {% endif %}
 }
 
 footer .copyright {
@@ -38,4 +31,31 @@ footer .copyright {
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
+}
+
+/* --- Post and page headers --- */
+
+.intro-header.big-img {
+  opacity: 0.55;
+}
+
+/* --- Horizontal ruler --- */
+
+hr.dotted {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+
+/* --- SVG --- */
+
+svg {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  fill: #DBD4ED;
+}
+svg:hover {
+  fill: #276DC3;
+  opacity: 0.5;
 }

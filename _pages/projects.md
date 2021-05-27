@@ -4,6 +4,7 @@ layout: page
 title: "Projects"
 subtitle: Some of things that take most of my time
 comments: true
+cover-img: /assets/img/github.jpg
 ---
 
 <sup class="center">
@@ -26,6 +27,7 @@ submitted to [Bioconductor](https://github.com/Bioconductor/Contributions/issues
 You can also find the code that's used to actually build this website at `rosscm.github.io`!
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rosscm&count_private=true&show_icons=true&hide_title=true&title_color=A180AD&icon_color=B63A88&text_color=272030&bg_color=F9F2F4&hide_border=false%include_all_commits=true)](https://github.com/rosscm)
+
 
 # Projects
 ## Bioconductor

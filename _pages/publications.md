@@ -3,6 +3,7 @@ permalink: /publications/
 title: "Publications"
 layout: page
 subtitle: Some other things that take over my time
+cover-img: /assets/img/books.jpg
 ---
 
 <sup class="center">

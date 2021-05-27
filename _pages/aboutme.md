@@ -3,6 +3,7 @@ permalink: /aboutme/
 layout: page
 title: About Me
 subtitle: Some things to describe me
+cover-img: /assets/img/workspace3.jpg
 ---
 
 # :ok_woman: {who}
@@ -16,7 +17,7 @@ various sets of numbers into pretty pictures). At night, you can find me kicking
 around a soccer ball, attempting to cook a dish I found online, and/or hanging out
 with my dog (click on the Instagram link if you want a little surprise...).
 
-# :office: {where}
+# :round_pushpin: {where}
 
 In 2015, I graduated from McMaster University with an honours bachelor's degree
 in Health Sciences with a specialization in Global Health. Then, in 2018, I completed

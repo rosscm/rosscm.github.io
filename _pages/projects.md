@@ -35,6 +35,8 @@ You can also find the code that's used to actually build this website at `rosscm
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rosscm&repo=fedup&title_color=A180AD&icon_color=B63A88&text_color=272030&bg_color=F9F2F4&hide_border=true)](https://github.com/rosscm/fedup)
 
 ## R Shiny
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rosscm&repo=fedupShiny&title_color=A180AD&icon_color=B63A88&text_color=272030&bg_color=F9F2F4&hide_border=true)](https://github.com/rosscm/fedupShiny)
+
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rosscm&repo=multiGIviewer&title_color=A180AD&icon_color=B63A88&text_color=272030&bg_color=F9F2F4&hide_border=true)](https://github.com/rosscm/multiGIviewer)
 
 ## Website

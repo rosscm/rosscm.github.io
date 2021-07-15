@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Catherine Ross</title>
+    
+    
+    <link>https://rosscm.github.io/</link>
+    <atom:link href="https://rosscm.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Random Tips and Tricks</title>
+        <description>
+          :thought_balloon: Some useful tips and tricks to make coding a little bit easier - 
+          Syntax highlighting in nano MacOS Install Homebrew if not already installed. Then install nano via homebrew brew install nano Open nanorc file nano ~/.nanorc Add the following line include &quot;/usr/local/share/nano/*.nanorc&quot; Refresh your terminal and voila, nano syntax highlighting Linux Open nanorc file nano ~/.nanorc Add the following line include /usr/share/nano/sh.nanorc...
+        </description>
+        <pubDate>Thu, 15 Jul 2021 00:00:00 -0400</pubDate>
+        <link>https://rosscm.github.io/2021-07-15-random-tips-tricks/</link>
+        <guid isPermaLink="true">https://rosscm.github.io/2021-07-15-random-tips-tricks/</guid>
+      </item>
+    
+      <item>
+        <title>Building R Shiny Apps</title>
+        <description>
+          :sparkles: Workflow to build robust and modular Shiny apps with R golem - 
+          Golem cheatsheet
+
+        </description>
+        <pubDate>Tue, 29 Jun 2021 00:00:00 -0400</pubDate>
+        <link>https://rosscm.github.io/2021-06-29-shiny-golem/</link>
+        <guid isPermaLink="true">https://rosscm.github.io/2021-06-29-shiny-golem/</guid>
+      </item>
+    
+      <item>
+        <title>Setting Up A Workspace</title>
+        <description>
+          :computer: Various tools to set up a coding workspace - 
+          Code editor | Terminal | Other helpful tools | Hardware specs Here are some of the software I currently use for my everyday coding needs. Code editor Atom – text editor Nv Dark – UI theme Nv Dark – Syntax theme r-exec – send R code to various R consoles...
+        </description>
+        <pubDate>Thu, 06 May 2021 00:00:00 -0400</pubDate>
+        <link>https://rosscm.github.io/2021-05-06-workspace-setup/</link>
+        <guid isPermaLink="true">https://rosscm.github.io/2021-05-06-workspace-setup/</guid>
+      </item>
+    
+      <item>
+        <title>Developing An R Package</title>
+        <description>
+          :package: Steps to start creating your own Bioconductor package - 
+          Interested in building your own R package? Here I’ll outline the steps I took to create my own! Note this will be tailored specifically to creating Bioconductor packages, not CRAN. So just keep that in mind. Useful resources R packages by Hadley Wickham and Jenny Bryan Bioconductor package guidelines biocthis...
+        </description>
+        <pubDate>Thu, 04 Mar 2021 00:00:00 -0500</pubDate>
+        <link>https://rosscm.github.io/2021-03-04-package-development/</link>
+        <guid isPermaLink="true">https://rosscm.github.io/2021-03-04-package-development/</guid>
+      </item>
+    
+  </channel>
+</rss>

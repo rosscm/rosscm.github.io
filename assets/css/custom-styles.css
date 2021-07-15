@@ -1,0 +1,57 @@
+/* --- General --- */
+
+.center {
+ text-align: center
+}
+
+html {
+  font-size: 100%
+}
+
+body {
+  font-family: 'Roboto', 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+}
+
+/* --- Footer --- */
+
+footer {
+  padding: 1.875rem 0;
+  border-top: 0.8px #EAEAEA solid;
+  margin-top: 3.125rem;
+  font-size: 0.875rem;
+}
+
+footer .copyright {
+  font-family: 'Roboto', 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* --- Post and page headers --- */
+
+.intro-header.big-img {
+  opacity: 0.55;
+}
+
+/* --- Horizontal ruler --- */
+
+hr.dotted {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+
+/* --- SVG --- */
+
+svg {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  fill: #DBD4ED;
+}
+svg:hover {
+  fill: #276DC3;
+  opacity: 0.5;
+}

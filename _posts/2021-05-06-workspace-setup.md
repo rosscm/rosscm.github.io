@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setting Up A Workspace"
-subtitle: ":computer: Various tips and tools to set up a coding workspace"
+subtitle: ":computer: Various tools to set up a coding workspace"
 tags: [workspace, tools]
 comments: true
 ---

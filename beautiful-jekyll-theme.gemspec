@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
   spec.add_runtime_dependency "kramdown-parser-gfm", "~> 1.1"
-  spec.add_runtime_dependency "kramdown", "~> 2.3.0"
+  spec.add_runtime_dependency "kramdown", ">= 2.3", "< 2.5"
   spec.add_runtime_dependency "jekyll-gist"
   spec.add_runtime_dependency "jekyll-feed"
   spec.add_runtime_dependency "jekyll-include-cache"
